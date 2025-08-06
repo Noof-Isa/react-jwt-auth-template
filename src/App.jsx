@@ -31,6 +31,10 @@ import SignUp from './components/SignUp/SignUp'
 import { Route, Routes } from 'react-router-dom'
 
 const App = () => {
+  const handleChange = (e) => {
+    console.log[EventTarget.target.value]
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
 
   return (
     <>
